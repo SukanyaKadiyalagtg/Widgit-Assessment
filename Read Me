@@ -1,0 +1,43 @@
+In this project, i used the BDD format Cucumber with Java framework
+
+In this project, all the main work is maintained in 3 packages. Those are
+
+	1) Feature File (All the Features are outlined in Gherkin language)
+	2) StepDefinations (Implementation for the features in the Feature file)
+	3) Runner File (The Execution will initiate from this file)
+	
+	The Structure i followed in this Project is, 
+	
+	Wrappers package contains Wrapper Interface and GenericWrapper class. In Wrapper interface contains all the Services or all the Methods 
+	with out their Implementation known as Abstract Methods.
+	
+	GenericWrapper class contains all the Implementations of the methods declared in the Wrapper Interface which is extends the Reporting
+	
+	runnerfile package contains Runner class, it extends the GenericWrappers and contains all the TestNG annotations, CucumberOptions
+	
+	All the pages maintained in the point.pages package which contains only AboutUsPage and IndexPage for the assignment purpose
+	
+	Utils package contains the Reporting class contains all the necessary steps for the Reporting purpose. For example Start report, 
+	Start test, take snap, end report & end test
+	
+	
+	config.properties maintains all the Locators used for on the pages. This is useful to maintain all the locators in one place for 
+	easy maintains. For example if we have 1000 test cases, if is there any change in one Locator, instead of going to each and every 
+	test case we can change in the config file and it will reflect in all the test cases.
+	
+	
+	drivers folder contains the browser drivers, presently i am using only chromedriver which is version 89.0.4389.90 on 64 bit . 
+	We can use multiple browsers as well
+	
+	
+	reports folder contains the screenshots and results.html
+	
+	pom.xml contains all the Maven dependencies used for the project including their versions
+	
+	Pre requists:
+	Eclipse
+	Java libraries
+	
+	
+	
+	

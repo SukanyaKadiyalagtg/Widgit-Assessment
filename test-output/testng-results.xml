@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Default suite" duration-ms="99181" started-at="2021-03-17T12:04:52 GMT" finished-at="2021-03-17T12:06:31 GMT">
+    <groups>
+      <group name="cucumber">
+        <method signature="Runner.runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerfile.Runner@87f383f]" name="runScenario" class="runnerfile.Runner"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test name="Default test" duration-ms="99181" started-at="2021-03-17T12:04:52 GMT" finished-at="2021-03-17T12:06:31 GMT">
+      <class name="runnerfile.Runner">
+        <test-method status="PASS" signature="beforeSuite()[pri:0, instance:runnerfile.Runner@87f383f]" name="beforeSuite" is-config="true" duration-ms="214" started-at="2021-03-17T12:04:52 GMT" finished-at="2021-03-17T12:04:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeSuite -->
+        <test-method status="PASS" signature="beforeTest()[pri:0, instance:runnerfile.Runner@87f383f]" name="beforeTest" is-config="true" duration-ms="1" started-at="2021-03-17T12:04:52 GMT" finished-at="2021-03-17T12:04:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeTest -->
+        <test-method status="PASS" signature="setUpClass()[pri:0, instance:runnerfile.Runner@87f383f]" name="setUpClass" is-config="true" duration-ms="509" started-at="2021-03-17T12:04:52 GMT" finished-at="2021-03-17T12:04:52 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerfile.Runner@87f383f]" name="runScenario" duration-ms="18288" started-at="2021-03-17T12:04:52 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-17T12:05:11 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Carousel navigates right"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Carousel]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runnerfile.Runner@87f383f]" name="afterMethod" is-config="true" duration-ms="1677" started-at="2021-03-17T12:05:11 GMT" finished-at="2021-03-17T12:05:12 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerfile.Runner@87f383f]" name="runScenario" duration-ms="13749" started-at="2021-03-17T12:05:12 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-17T12:05:26 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Carousel navigates left"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Carousel]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runnerfile.Runner@87f383f]" name="afterMethod" is-config="true" duration-ms="1223" started-at="2021-03-17T12:05:26 GMT" finished-at="2021-03-17T12:05:27 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerfile.Runner@87f383f]" name="runScenario" duration-ms="45225" started-at="2021-03-17T12:05:27 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-17T12:06:13 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify Carousel rotates through all the content"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Carousel]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runnerfile.Runner@87f383f]" name="afterMethod" is-config="true" duration-ms="1090" started-at="2021-03-17T12:06:13 GMT" finished-at="2021-03-17T12:06:14 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="runScenario(io.cucumber.testng.PickleWrapper, io.cucumber.testng.FeatureWrapper)[pri:0, instance:runnerfile.Runner@87f383f]" name="runScenario" duration-ms="15834" started-at="2021-03-17T12:06:14 GMT" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2021-03-17T12:06:30 GMT">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Check symbols appear correctly"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Point]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method status="PASS" signature="afterMethod()[pri:0, instance:runnerfile.Runner@87f383f]" name="afterMethod" is-config="true" duration-ms="1482" started-at="2021-03-17T12:06:30 GMT" finished-at="2021-03-17T12:06:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterMethod -->
+        <test-method status="PASS" signature="tearDownClass()[pri:0, instance:runnerfile.Runner@87f383f]" name="tearDownClass" is-config="true" duration-ms="18" started-at="2021-03-17T12:06:31 GMT" finished-at="2021-03-17T12:06:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+        <test-method status="PASS" signature="afterTest()[pri:0, instance:runnerfile.Runner@87f383f]" name="afterTest" is-config="true" duration-ms="1" started-at="2021-03-17T12:06:31 GMT" finished-at="2021-03-17T12:06:31 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterTest -->
+        <test-method status="PASS" signature="afterSuite()[pri:0, instance:runnerfile.Runner@87f383f]" name="afterSuite" is-config="true" duration-ms="698" started-at="2021-03-17T12:06:31 GMT" finished-at="2021-03-17T12:06:32 GMT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- afterSuite -->
+      </class> <!-- runnerfile.Runner -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
